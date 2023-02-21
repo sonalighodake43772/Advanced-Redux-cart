@@ -1,6 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialCartState = {
+  
     toggle:false
 
   
@@ -14,6 +15,7 @@ const cartSlice = createSlice({
     {
        state.toggle=!state.toggle; 
     }
+   
    
   },
 });
